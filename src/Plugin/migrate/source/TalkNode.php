@@ -13,7 +13,7 @@ use Drupal\migrate\Row;
 class TalkNode extends SqlBase {
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function query() {
     return $this->select('talks', 't')

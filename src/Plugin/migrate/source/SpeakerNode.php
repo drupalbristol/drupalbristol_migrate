@@ -12,7 +12,7 @@ use Drupal\migrate\Plugin\migrate\source\SqlBase;
 class SpeakerNode extends SqlBase {
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function query() {
     return $this->select('speakers', 's')
@@ -20,7 +20,7 @@ class SpeakerNode extends SqlBase {
   }
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function getIds() {
     return [
@@ -32,7 +32,7 @@ class SpeakerNode extends SqlBase {
   }
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function fields() {
     return [

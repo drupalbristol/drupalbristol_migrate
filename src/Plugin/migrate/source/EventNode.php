@@ -13,7 +13,7 @@ use Drupal\migrate\Row;
 class EventNode extends SqlBase {
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function query() {
     return $this->select('events', 'e')
@@ -21,7 +21,7 @@ class EventNode extends SqlBase {
   }
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function getIds() {
     return [
@@ -33,7 +33,7 @@ class EventNode extends SqlBase {
   }
 
   /**
-   * @{@inheritdoc}
+   * {@inheritdoc}
    */
   public function fields() {
     return [
