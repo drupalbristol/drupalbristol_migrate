@@ -1,8 +1,11 @@
 id: venue_term
+
 source:
   plugin: venue_term
+
 destination:
   plugin: entity:taxonomy_term
+
 process:
   name: name
   vid:

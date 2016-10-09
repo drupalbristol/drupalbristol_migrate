@@ -1,11 +1,15 @@
 id: event_node
 label: ''
+
 migration_groups:
   - Drupal Bristol
+
 source:
   plugin: event_node
+
 destination:
   plugin: entity:node
+
 process:
   title: name
   uid:
@@ -20,6 +24,7 @@ process:
       migration: venue_term
       source: venue_id
   field_link/uri: link
+
 migrate_dependencies:
   required:
     - venue_term

@@ -1,9 +1,12 @@
 id: talk_node
 label: ''
+
 source:
   plugin: talk_node
+
 destination:
   plugin: entity:nod
+
 process:
   title: title
   uid:
@@ -26,6 +29,7 @@ process:
     - plugin: migration
       migration: speaker_node
       source: speaker_ids
+
 migrate_dependencies:
   required:
     - event_node
